@@ -1,0 +1,147 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark"> -->
+    <title>Google Receipt</title>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+        /* :root {
+            color-scheme: light dark;
+            supported-color-schemes: light dark;
+        } */
+
+        /*Margin: 0; allows no spacing at the top or bottom of the email */
+        body {
+            margin: 0;
+            background-color: #000;
+            /* background: #2d2d2d !important;
+            color: #f0f0f0 !important; */
+        }
+
+        /* Border-spacing: 0; stops email clients from putting space in between the tables  */
+        table {
+            border-spacing: 0;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+        }
+
+        .wrapper {
+            /* width 100% keeps the tables within the design no matter the screen size */
+            width: 100%;
+            background-color: #ffffff;
+            /* fixed makes sure the table layout doesnt display out of parent elements or the center tag */
+            table-layout: fixed;
+            /* gives spacing tot he bottom of the email template */
+            padding-bottom: 60px;
+
+        }
+
+        /* This .main class makes sure that email clients respect the width, color, and centering of the design and is the main email template table   */
+        .main {
+            /* margin re-enforces the centering of the design */
+            margin: 0 auto;
+            /* Makes sure the element takes up 100% of the width of the outer parent element */
+            width: 100%;
+            /* Re-enforce the max width */
+            max-width: 600px;
+            border-spacing: 0;
+            background-color: #ededed;
+            box-shadow: 12px 0 15px -4px rgba(58, 59, 61, 0.8), -12px 0 8px -4px rgba(58, 59, 61, 0.7);
+        }
+
+        br {
+            display: block; /* makes it have a width */
+            content: ""; /* clears default height */
+            margin-top: 0; /* change this to whatever height you want it */
+}
+
+        @media only screen and (max-width: 600px) {}
+
+        @media only screen and (max-width: 400px) {}
+    </style>
+</head>
+
+<body>
+    <div style="display: none; max-height: 0px; overflow: hidden;">
+        <!-- Preheader message here -->
+    </div>
+    <!-- Center tag makes sure the email is centered in email clients -->
+    <center class="wrapper">
+
+        <table class="main" width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+
+            <!-- Logo -->
+
+            <tr>
+                <td>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                        <tr>
+                            <td>
+                                <a href="https://github.com/Goshufit"><img src="https://i.ibb.co/k2rwXCR/Logo.png"
+                                        alt="Logo" style="padding: 30px 0 5px 30px;"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Section Break Line -->
+
+            <tr>
+                <td>
+                    <table width="94.7%" style="padding-left:29.1px;" border="0" cellspacing="0" cellpadding="0"
+                        role="presentation">
+                        <tr>
+                            <td height="1px" style="background-color: rgba(192, 192, 192, 0.2); max-width: 580px;">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Header "Thank You" -->
+
+            <tr>
+                <td>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                        <tr>
+                            <td>
+                                <h1 style="font-family: Lato; font-weight: lighter; padding-left: 29px; color: #565656; letter-spacing: 1px;">Thank you</h1>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Subscription Status -->
+
+            <tr>
+                <td>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                        <tr>
+                            <td style="">
+                                <p style="font-family: Lato; padding: 0 33px 0 25px; word-spacing: 2px; font-weight: lighter; line-height: -1px; margin: 0;">Your subscription from Google on Google Play continues and you've<br style="line-height: -2px;"></br>been charged. <a href=""><span>Manage your subscriptions.</span></a></p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+
+
+
+
+        </table>
+    </center>
