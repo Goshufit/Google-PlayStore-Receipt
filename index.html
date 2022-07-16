@@ -11,6 +11,9 @@
     <title>Google Receipt</title>
     <style type="text/css">
         @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
         /* :root {
             color-scheme: light dark;
             supported-color-schemes: light dark;
@@ -55,21 +58,21 @@
             /* Makes sure the element takes up 100% of the width of the outer parent element */
             width: 100%;
             /* Re-enforce the max width */
-            max-width: 600px;
+            max-width: 530px;
             border-spacing: 0;
             background-color: #ededed;
-            box-shadow: 12px 0 15px -4px rgba(58, 59, 61, 0.8), -12px 0 8px -4px rgba(58, 59, 61, 0.7);
+            box-shadow: 12px 0 15px -9px rgba(58, 59, 61, 0.4), -12px 0 8px -8px rgba(58, 59, 61, 0.3);
         }
 
         br {
-            display: block; /* makes it have a width */
-            content: ""; /* clears default height */
-            margin-top: 0; /* change this to whatever height you want it */
-}
+            display: block;
+            /* makes it have a width */
+            content: "";
+            /* clears default height */
+            margin-top: 0;
+            /* change this to whatever height you want it */
+        }
 
-        @media only screen and (max-width: 600px) {}
-
-        @media only screen and (max-width: 400px) {}
     </style>
 </head>
 
@@ -118,7 +121,9 @@
                     <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
                         <tr>
                             <td>
-                                <h1 style="font-family: Lato; font-weight: lighter; padding-left: 29px; color: #565656; letter-spacing: 1px;">Thank you</h1>
+                                <h1
+                                    style="font-family: 'Lato', sans-serif; padding-left: 29px; color: #565656; letter-spacing: 1px; font-weight: 400;">
+                                    Thank you</h1>
                             </td>
                         </tr>
                     </table>
@@ -131,13 +136,65 @@
                 <td>
                     <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
                         <tr>
-                            <td style="">
-                                <p style="font-family: Lato; padding: 0 33px 0 25px; word-spacing: 2px; font-weight: lighter; line-height: -1px; margin: 0;">Your subscription from Google on Google Play continues and you've<br style="line-height: -2px;"></br>been charged. <a href=""><span>Manage your subscriptions.</span></a></p>
+                            <td>
+                                <p
+                                    style="font-family: Lato; padding: 0 0 0 32px; word-spacing: 2px; font-weight: 400; line-height: -1px; margin: 0; font-size: 15px; color: #565656;">
+                                    Your subscription from Google on Google Play continues and you've<br
+                                        style="line-height: -2px;"></br>been charged. <a href=""><span>Manage your
+                                            subscriptions.</span></a></p>
                             </td>
                         </tr>
                     </table>
                 </td>
             </tr>
+
+            <!-- Order Info  -->
+
+            <tr>
+                <td>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                        <tr>
+                            <td style="padding: 20px 0; line-height: 22px;">
+                                <p
+                                    style="font-family: Lato; padding: 0 0 0 32px; word-spacing: 2px; font-weight: 400; line-height: -1px; margin: 0; font-size: medium; color: #565656;">
+                                    <span style="font-weight: 900;">Order number:</span> SOP.3353-6282-0910-99743..8
+                                </p>
+                                <p
+                                    style="font-family: Lato; padding: 0 0 0 32px; word-spacing: 2px; font-weight: 400; line-height: -1px; margin: 0; font-size: medium; color: #565656;">
+                                    <span style="font-weight: 900;">Order date:</span><span
+                                        style=" word-spacing: 1.1px"> Jun 17, 2022 5:33:07 PM EDT </span>
+                                </p>
+                                <p
+                                    style="font-family: Lato; padding: 0 0 0 32px; word-spacing: 2px; font-weight: 400; line-height: -1px; margin: 0; font-size: medium; color: #565656;">
+                                    <span style="font-weight: 900;">Your account:</span> <a
+                                        href="https://github.com/Goshufit"><span
+                                            style="font-size: 16px;">GoshuFit@gmail.com</span></a>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Order Price -->
+
+            <tr>
+                <td>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                        <tr style="display: inline-block;">
+                            <td>
+                                <p style="font-family: Lato; padding: 0 0 0 32px; word-spacing: 2px; font-weight: 800; line-height: -1px; margin: 0; font-size: 14px; color: #565656;">Item</p>
+                            </td>
+                        </tr>
+                        <tr style="display: inline-block;">
+                            <td>
+                                <p style="font-family: Lato; padding: 0 0 0 395px; word-spacing: 2px; font-weight: 800; line-height: -1px; margin: 0; font-size: 14px; color: #565656;">Price</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            
 
 
 
