@@ -73,6 +73,19 @@
             /* change this to whatever height you want it */
         }
 
+        @media only screen and (max-width: 415px) {
+            .reduce-pad {
+                padding: 0 0 0 10px;
+            }
+        }
+
+        @media only screen and (max-width: 402px) {
+            .mobfont {
+                font-size: 6vw !important;
+                line-height: 6vw !important;
+            }
+
+        }
     </style>
 </head>
 
@@ -137,10 +150,11 @@
                     <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
                         <tr>
                             <td>
-                                <p
-                                    style="font-family: Lato; padding: 0 0 0 32px; word-spacing: 2px; font-weight: 400; line-height: -1px; margin: 0; font-size: 15px; color: #565656;">
+                                <p class="mobfont"
+                                    style="font-family: 'Lato', sans-serif; padding: 0 0 0 32px; word-spacing: 2px; font-weight: 400; line-height: -1px; margin: 0; font-size: 15px; color: #565656;">
                                     Your subscription from Google on Google Play continues and you've<br
-                                        style="line-height: -2px;"></br>been charged. <a href=""><span>Manage your
+                                        style="line-height: -2px;"></br>been charged. <a href="" class="mobfont"><span
+                                            class="mobfont">Manage your
                                             subscriptions.</span></a></p>
                             </td>
                         </tr>
@@ -155,19 +169,19 @@
                     <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
                         <tr>
                             <td style="padding: 20px 0; line-height: 22px;">
-                                <p
-                                    style="font-family: Lato; padding: 0 0 0 32px; word-spacing: 2px; font-weight: 400; line-height: -1px; margin: 0; font-size: medium; color: #565656;">
+                                <p class="mobfont"
+                                    style="font-family: 'Lato', sans-serif; padding: 0 0 0 32px; word-spacing: 2px; font-weight: 400; line-height: -1px; margin: 0; font-size: medium; color: #565656;">
                                     <span style="font-weight: 900;">Order number:</span> SOP.3353-6282-0910-99743..8
                                 </p>
-                                <p
-                                    style="font-family: Lato; padding: 0 0 0 32px; word-spacing: 2px; font-weight: 400; line-height: -1px; margin: 0; font-size: medium; color: #565656;">
+                                <p class="mobfont"
+                                    style="font-family: 'Lato', sans-serif; padding: 0 0 0 32px; word-spacing: 2px; font-weight: 400; line-height: -1px; margin: 0; font-size: medium; color: #565656;">
                                     <span style="font-weight: 900;">Order date:</span><span
                                         style=" word-spacing: 1.1px"> Jun 17, 2022 5:33:07 PM EDT </span>
                                 </p>
-                                <p
-                                    style="font-family: Lato; padding: 0 0 0 32px; word-spacing: 2px; font-weight: 400; line-height: -1px; margin: 0; font-size: medium; color: #565656;">
+                                <p class="mobfont"
+                                    style="font-family: 'Lato', sans-serif; padding: 0 0 0 32px; word-spacing: 2px; font-weight: 400; line-height: -1px; margin: 0; font-size: medium; color: #565656;">
                                     <span style="font-weight: 900;">Your account:</span> <a
-                                        href="https://github.com/Goshufit"><span
+                                        href="https://github.com/Goshufit"><span class="mobfont"
                                             style="font-size: 16px;">GoshuFit@gmail.com</span></a>
                                 </p>
                             </td>
@@ -176,29 +190,144 @@
                 </td>
             </tr>
 
-            <!-- Order Price -->
+            <!-- Order Section -->
 
             <tr>
                 <td>
-                    <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
-                        <tr style="display: inline-block;">
-                            <td>
-                                <p style="font-family: Lato; padding: 0 0 0 32px; word-spacing: 2px; font-weight: 800; line-height: -1px; margin: 0; font-size: 14px; color: #565656;">Item</p>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation"
+                        style="padding-bottom: 10px;">
+                        <tr>
+                            <td width="100%">
+                                <p class="mobfont"
+                                    style="font-family: 'Lato', sans-serif; padding: 0 0 0 32px; word-spacing: 2px; font-weight: 800; line-height: -1px; margin: 0; font-size: 14px; color: #565656;">
+                                    Item</p>
                             </td>
-                        </tr>
-                        <tr style="display: inline-block;">
-                            <td>
-                                <p style="font-family: Lato; padding: 0 0 0 395px; word-spacing: 2px; font-weight: 800; line-height: -1px; margin: 0; font-size: 14px; color: #565656;">Price</p>
+                            <td width="100%">
+                                <p class="mobfont"
+                                    style="font-family: 'Lato', sans-serif; word-spacing: 2px; font-weight: 800; line-height: -1px; margin: 0; font-size: 14px; color: #565656; padding-right: 32px;">
+                                    Price</p>
                             </td>
                         </tr>
                     </table>
                 </td>
             </tr>
-            
 
+            <!-- Section Break Line -->
 
+            <tr>
+                <td>
+                    <table width="94.7%" style="padding-left:29.1px; padding-bottom: 12px;" border="0" cellspacing="0"
+                        cellpadding="0" role="presentation">
+                        <tr>
+                            <td height="1px" style="background-color: rgba(192, 192, 192, 0.2); max-width: 580px;">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
 
+            <!-- Order Price Section -->
 
+            <tr>
+                <td>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation"
+                        style="padding-bottom: 10px;">
+                        <tr>
+                            <td width="100%" style="padding-bottom: 6px;">
+                                <p
+                                    style="margin: 0; font-family: 'Lato', sans-serif; padding: 0 0 0 32px; font-weight: 400; line-height: -1px; margin: 0; font-size: 14px; color: #565656;">
+                                    100 GB (Google One) (by Google LLC)</p>
+                            </td>
+                            <td>
+                                <p
+                                    style="margin: 0; font-family: 'Lato', sans-serif; padding: 0 0 0 32px; font-weight: 400; line-height: -1px; margin: 0; font-size: 14px; color: #565656; padding-right: 32px;">
+                                    $1.99/month </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p
+                                    style="margin: 0; font-family: 'Lato', sans-serif; padding: 0 0 0 32px; font-weight: 400; line-height: -1px; margin: 0; font-size: 14px; color: #565656;">
+                                    Auto-renewing subscription </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Section Break Line -->
+
+            <tr>
+                <td>
+                    <table width="94.7%" style="padding-left:29.1px; padding-bottom: 12px;" border="0" cellspacing="0"
+                        cellpadding="0" role="presentation">
+                        <tr>
+                            <td height="1px" style="background-color: rgba(192, 192, 192, 0.2); max-width: 580px;">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Order Price Section 2 -->
+
+            <tr>
+                <td>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation"><tr>
+                        <td><table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                            <tr>
+                                <td style="text-align: right; padding-bottom: 7px;">
+                                    <p
+                                        style="margin: 0; font-family: 'Lato', sans-serif; padding: 0 32px 0 0px; font-weight: 400; line-height: -1px; margin: 0; font-size: 14px; color: #565656;">
+                                        Tax: $0.00</p>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                            <tr>
+                                <td style="text-align: right;">
+                                    <p
+                                        style="margin: 0; font-family: 'Lato', sans-serif; padding: 0 32px 0 0px; font-weight: 400; line-height: -1px; margin: 0; font-size: 14px; color: #565656;">
+                                        Total: $1.99/month</p>
+                                </td>
+                            </tr>
+                        </table></td>
+                    </tr>
+                        
+
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Section Break Line -->
+
+            <tr>
+                <td>
+                    <table width="94.7%" style="padding-left: 29.1px; padding-bottom: 12px;" border="0" cellspacing="0"
+                        cellpadding="0" role="presentation">
+                        <tr>
+                            <td height="1px" style="background-color: rgba(192, 192, 192, 0.2); max-width: 580px;">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Order Price Section 3 -->
+
+            <tr>
+                <td>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                        <tr>
+                            <td>
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
 
         </table>
     </center>
+</body>
